@@ -36,13 +36,16 @@ a{
     color: silver;
     font-weight: bold;
     font-size: 20px;
+    font-family: 'Girassol', cursive;
 }
 a:hover{
     color: goldenrod;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Girassol', cursive;
 }
 
 h1{
     color:silver;
+    font-family: 'Aclonica', sans-serif;
 }
