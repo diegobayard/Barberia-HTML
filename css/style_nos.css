@@ -29,15 +29,13 @@ body{
 .cartel1{
     width: 20%;
     margin-left: 100px;
-
 }
 
 a{
     text-decoration: none;
-    
     color: silver;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Girassol', cursive;
 }
 a:hover{
@@ -47,9 +45,7 @@ a:hover{
     font-family: 'Girassol', cursive;
 }
 
-h1{
+h2{
     color:silver;
     font-family: 'Aclonica', sans-serif;
-    font-size: 60px;
-      text-indent: -100px;
 }
