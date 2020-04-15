@@ -97,3 +97,16 @@ h1{
         width: 20%;
         margin-left: 100px;
     }
+
+.slider{
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+    .miSlide{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 386px;
+    }

@@ -29,7 +29,35 @@
         <p class="cartel1"><a href="productos.html">Productos</a></p>
         <p class="cartel1"><a href="contacto.html">Contacto</a></p>
         <p class="cartel1"><a href="nosotros.html">Nosotros</a></p>
-      </div>
-      <h2>Reservar Turno</h2>
+    </div>
+
+    <div class="slider">
+        <img class="miSlide" src="imagenes/barberia1.JPEG">
+        <img class="miSlide" src="imagenes/barberia3.jpg">
+        <img class="miSlide" src="imagenes/barberia2.JPEG">
+        <img class="miSlide" src="imagenes/barberia4.jpg">
+    </div>
+
+    <script>
+        var indice = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("miSlide");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          indice++;
+          if (indice > x.length) {indice = 1}    
+          x[indice-1].style.display = "block";  
+          setTimeout(carousel, 3000); //Cambia cada 3 segundos
+        }
+    </script>
+
+    <div class="texto_principal">
+        
+    </div>
+
 </body>
 </html>
