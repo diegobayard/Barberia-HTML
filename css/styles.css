@@ -42,7 +42,7 @@ h1{
     background-color: black;
     display: flex;
     margin-bottom: 10px;
-    padding-left: 75%;
+    padding-left: 65%;
 }
 
     .redes{
@@ -67,6 +67,10 @@ h1{
 
     .fa-twitter:hover{
         color: skyblue !important;
+    }
+
+    .fa-whatsapp:hover{
+        color: greenyellow !important;
     }
 
 #contenedor_logo{
