@@ -18,6 +18,15 @@ body{
     width: fit-content;
 }
 
+#contenedor_redes{
+    background-color: black;
+    display: flex;
+}
+
+#redes{
+  width: fit-content(2cm);
+}
+
 .carteles{
     margin-top: 20px;
     width: 100%;
@@ -34,7 +43,7 @@ body{
 
 a{
     text-decoration: none;
-    
+
     color: silver;
     font-weight: bold;
     font-size: 25px;
