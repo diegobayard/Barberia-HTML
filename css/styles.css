@@ -102,45 +102,58 @@ h1{
         margin-left: 100px;
     }
 
-.slider{
+.slider_p{
     margin-top: 20px;
     width: 100%;
     justify-content: center;
+    display: flex;
+  }
+  .miSlide_p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 386px;
+    margin-top: 20px;
+
+  }
+  #texto_prod{
+    background-color: black;
+    color: silver;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 30%;
 }
 
+  .slider{
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+  }
     .miSlide{
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 60%;
         height: 386px;
-    }
+        margin-top: 20px;
 
-.cuerpo_principal{
-    margin-top: 20px;
-    display: flex;
-}
+    }
 
     #texto_hist{
         background-color: black;
         color: silver;
-        width: 40%;
+        width: 30%;
         padding: 20px;
-        text-align: center;
-        font-size: 30px;
+        text-align:center;
+        font-size: 27px;
         padding-left: 50px;
         padding-right: 50px;
-    }
-
-    #texto_prod{
-        background-color: black;
-        color: silver;
-        margin-left: 10%;
-        width: 40%;
-        padding: 20px;
-        text-align: center;
-        font-size: 30px;
-        padding-left: 50px;
-        padding-right: 50px;
+        margin-top: 20px;
+        display: flex;
     }
 
     #textito{
@@ -175,4 +188,3 @@ footer{
         font-family: 'Aclonica', sans-serif;
         font-weight: bold;
     }
-
