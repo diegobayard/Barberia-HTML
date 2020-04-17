@@ -103,28 +103,29 @@ h1{
     }
 
 .slider_p{
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-    display: flex;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  }
+  .productitos{
+      width: 68%;
+      margin-right: 10px;
   }
   .miSlide_p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: 386px;
-    margin-top: 20px;
+    width: 100%;
+    height: 386px
 
   }
   #texto_prod{
     background-color: black;
     color: silver;
-    padding: 20px;
-    text-align: center;
-    font-size: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
     width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    font-size: 25px;
 }
 
   .slider{

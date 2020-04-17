@@ -63,38 +63,35 @@
     </script>
 
       <div class="slider_p">
-        
-        <div id="texto_prod">
-            <!-- <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética . Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Nuestras propias marcas son: Assembler (peluquería), Haskell (Estética), Java (cosmética) y Python (Barber). Somos la empresa líder en Rosario en nuestro sector y exportamos a más de 10 provincias en todo el pais. Tenemos una extensa red de distribución tanto a nivel nacional como internacional. Como empresa, Vikings Barber Shop es pionera en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p> -->
-            <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética . Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p>
-        </div> 
-        
         <div class="productitos">
           <img class="miSlide_p" src="imagenes/prod1.JPG">
           <img class="miSlide_p" src="imagenes/prod3.jpg">
           <img class="miSlide_p" src="imagenes/prod2.JPG">
           <img class="miSlide_p" src="imagenes/prod4.jpg">
         </div>
-      
+        <div id="texto_prod">
+            <!-- <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética . Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Nuestras propias marcas son: Assembler (peluquería), Haskell (Estética), Java (cosmética) y Python (Barber). Somos la empresa líder en Rosario en nuestro sector y exportamos a más de 10 provincias en todo el pais. Tenemos una extensa red de distribución tanto a nivel nacional como internacional. Como empresa, Vikings Barber Shop es pionera en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p> -->
+            <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética. Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Como empresa, somos pioneros en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p>
+        </div>
       </div>
-<!--
-  <script>
-        var indice = 0;
-        carousel();
 
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("miSlide_p");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
+  <script>
+        var indices = 0;
+        carousell();
+
+        function carousell() {
+          var j;
+          var y = document.getElementsByClassName("miSlide_p");
+          for (j = 0; j < y.length; j++) {
+            y[j].style.display = "none";
           }
-          indice++;
-          if (indice > x.length) {indice = 1}
-          x[indice-1].style.display = "block";
-          setTimeout(carousel, 3000); //Cambia cada 3 segundos
+          indices++;
+          if (indices > y.length) {indices = 1}
+          y[indices-1].style.display = "block";
+          setTimeout(carousell, 3000); //Cambia cada 3 segundos
         }
     </script>
--->
+
     <footer>
         <div class="horario">
             <p>Horarios:</p>
