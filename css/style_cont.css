@@ -1,0 +1,152 @@
+body{
+    background-image: url("../wood1.jpg");
+}
+
+a{
+    text-decoration: none;
+
+    color: silver;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Girassol', cursive;
+}
+    a:hover{
+        color: goldenrod;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Girassol', cursive;
+    }
+
+    #inicia{
+        color: silver;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        margin-top: 14px;
+        margin-left: 20px;
+    }
+
+    #inicia:hover{
+        color: goldenrod;
+    }
+
+h1{
+    color:silver;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 60px;
+      text-indent: -100px;
+}
+
+h2{
+    color:silver;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+#contenedor_redes{
+    background-color: black;
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 65%;
+}
+
+    .redes{
+        /*width: fit-content(2cm);*/
+        width: fit-content;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .fa-facebook:hover{
+        color: blue !important;
+    }
+
+    .fa-instagram:hover{
+        color: violet !important;
+    }
+
+    .fa-youtube:hover{
+        color: red !important;
+    }
+
+    .fa-twitter:hover{
+        color: skyblue !important;
+    }
+
+    .fa-whatsapp:hover{
+        color: greenyellow !important;
+    }
+
+#contenedor_logo{
+    background-color: black;
+    display: flex;
+}
+
+    #logo{
+        padding-left: 10px;
+        width: fit-content;
+    }
+
+    #nombre_logo{
+        padding-left: 22%;
+        padding-top: 50px;
+        width: fit-content;
+    }
+
+.contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.info{
+    background-color: black;
+    color: silver;
+    width: 100%;
+    float: right;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.formu{
+    width: 100%;
+    background-color: black;
+    float: left;
+    color: silver;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 53px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#borrar{
+    padding: 5px;
+    font-size: 20px;
+    background:linear-gradient(to right, #43cea2, #185a9d);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#enviar{
+    padding: 5px;
+    font-size: 20px;
+    background:linear-gradient(270deg,#56CCF2,#2F80ED);
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: chartreuse;
+    font-weight: bold;
+    text-align: center;
+}
