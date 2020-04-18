@@ -69,9 +69,22 @@
           <img class="miSlide_p" src="imagenes/prod2.JPG">
           <img class="miSlide_p" src="imagenes/prod4.jpg">
         </div>
+        <div class="productitis">
+          <img class="miSlide_p2" src="imagenes/prod5.JPG">
+          <img class="miSlide_p2" src="imagenes/prod6.jpg">
+          <img class="miSlide_p2" src="imagenes/prod7.JPG">
+          <img class="miSlide_p2" src="imagenes/prod8.jpg">
+        </div>
+        <div class="productites">
+          <img class="miSlide_p3" src="imagenes/prod9.JPG">
+          <img class="miSlide_p3" src="imagenes/prod10.jpg">
+          <img class="miSlide_p3" src="imagenes/prod11.JPG">
+          <img class="miSlide_p3" src="imagenes/prod12.jpg">
+        </div>
         <div id="texto_prod">
-            <!-- <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética . Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Nuestras propias marcas son: Assembler (peluquería), Haskell (Estética), Java (cosmética) y Python (Barber). Somos la empresa líder en Rosario en nuestro sector y exportamos a más de 10 provincias en todo el pais. Tenemos una extensa red de distribución tanto a nivel nacional como internacional. Como empresa, Vikings Barber Shop es pionera en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p> -->
-            <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética. Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Como empresa, somos pioneros en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p>
+          <!-- <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética . Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Nuestras propias marcas son: Assembler (peluquería), Haskell (Estética), Java (cosmética) y Python (Barber). Somos la empresa líder en Rosario en nuestro sector y exportamos a más de 10 provincias en todo el pais. Tenemos una extensa red de distribución tanto a nivel nacional como internacional. Como empresa, Vikings Barber Shop es pionera en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p> -->
+          <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética. Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Como empresa, somos pioneros en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p>
+
         </div>
       </div>
 
@@ -91,6 +104,41 @@
           setTimeout(carousell, 3000); //Cambia cada 3 segundos
         }
     </script>
+
+    <script>
+          var indicesp = 0;
+          carousellp();
+
+          function carousellp() {
+            var k;
+            var z = document.getElementsByClassName("miSlide_p2");
+            for (k = 0; k < z.length; k++) {
+              z[k].style.display = "none";
+            }
+            indicesp++;
+            if (indicesp > z.length) {indicesp = 1}
+            z[indicesp-1].style.display = "block";
+            setTimeout(carousellp, 3000); //Cambia cada 3 segundos
+          }
+      </script>
+
+
+      <script>
+            var indices_p = 0;
+            carousell_p();
+
+            function carousell_p() {
+              var l;
+              var w = document.getElementsByClassName("miSlide_p3");
+              for (l = 0; l < w.length; l++) {
+                w[l].style.display = "none";
+              }
+              indices_p++;
+              if (indices_p> w.length) {indices_p = 1}
+              w[indices_p-1].style.display = "block";
+              setTimeout(carousell_p, 3000); //Cambia cada 3 segundos
+            }
+        </script>
 
     <footer>
         <div class="horario">
