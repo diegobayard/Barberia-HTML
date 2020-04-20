@@ -217,3 +217,26 @@ footer{
     #reserva:hover{
         background: linear-gradient(to right, #0575e6, #021b79);
     }
+
+    .miSlider_p{
+        position: relative;
+    }
+
+    .miSlider_p2{
+        position: relative;
+    }
+
+    .miSlider_p3{
+        position: relative;
+    }
+    
+    .textite{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.849);
+        width: 100%;
+        text-align: center;
+        color: silver;
+        font-size: larger;
+    }

@@ -64,22 +64,22 @@
 
       <div class="slider_p">
         <div class="productitos">
-          <img class="miSlide_p" src="imagenes/prod1.JPG">
-          <img class="miSlide_p" src="imagenes/prod3.jpg">
-          <img class="miSlide_p" src="imagenes/prod2.JPG">
-          <img class="miSlide_p" src="imagenes/prod4.jpg">
+          <div class="miSlider_p"><img class="miSlide_p" src="imagenes/prod1.JPG"><p class="textite">Cera Efecto Brillante BARBER x 60ml Primont $540</p></div>
+          <div class="miSlider_p"><img class="miSlide_p" src="imagenes/prod3.jpg"><p class="textite">Pomada Efecto Mate BARBER x 60ml Primont $540</p></div>
+          <div class="miSlider_p"><img class="miSlide_p" src="imagenes/prod2.JPG"><p class="textite">Gel Efecto Fuerte BARBER x 250ml Primont $540</p></div>
+          <div class="miSlider_p"><img class="miSlide_p" src="imagenes/prod4.jpg"><p class="textite">Serum Con Aceite De Argán BARBER x 20ml Primont $435</p></div>
         </div>
         <div class="productitis">
-          <img class="miSlide_p2" src="imagenes/prod5.JPG">
-          <img class="miSlide_p2" src="imagenes/prod6.jpg">
-          <img class="miSlide_p2" src="imagenes/prod7.JPG">
-          <img class="miSlide_p2" src="imagenes/prod8.jpg">
+          <div class="miSlider_p2"><img class="miSlide_p2" src="imagenes/prod5.JPG"><p class="textite">Shampoo BARBER x 250ml Primont $540</p></div>
+          <div class="miSlider_p2"><img class="miSlide_p2" src="imagenes/prod6.jpg"><p class="textite">Acondicionador BARBER x 60ml	Primont $435</p></div>
+          <div class="miSlider_p2"><img class="miSlide_p2" src="imagenes/prod7.JPG"><p class="textite">Ampolla Caída Severa P07 x 10ml Primont $99</p></div>
+          <div class="miSlider_p2"><img class="miSlide_p2" src="imagenes/prod8.jpg"><p class="textite">Shampoo For Men Caida x 250ml Primont $225</p></div>
         </div>
         <div class="productites">
-          <img class="miSlide_p3" src="imagenes/prod12.JPG">
-          <img class="miSlide_p3" src="imagenes/prod10.jpg">
-          <img class="miSlide_p3" src="imagenes/prod11.JPG">
-          <img class="miSlide_p3" src="imagenes/prod9.jpg">
+          <div class="miSlider_p3"><img class="miSlide_p3" src="imagenes/prod12.JPG"><p class="textite">Gel Fijador Para Cabello Sin Alcohol x 500g Fijacion Fuerte De Preal $162</p></div>
+          <div class="miSlider_p3"><img class="miSlide_p3" src="imagenes/prod10.jpg"><p class="textite">Gel Fijador Para Cabello Sin Alcohol x 1050g Fijacion Natural De Preal $269</p></div>
+          <div class="miSlider_p3"><img class="miSlide_p3" src="imagenes/prod11.JPG"><p class="textite">Gel Fijador Para Cabello Sin Alcohol x 1050g Efecto Húmedo De Preal $269</p></div>
+          <div class="miSlider_p3"><img class="miSlide_p3" src="imagenes/prod9.jpg"><p class="textite">Set BARBER Novelty + REGALO! Primont $25000</p></div>
         </div>
         <div id="texto_prod">
           <!-- <p>Vikings Barber Shop fabrica y distribuye en todo el pais miles de artículos para profesionales de la industria de la peluquería, belleza y cosmética . Llevamos más de 75 años trabajando para proporcionar productos de alta calidad a profesionales de la industria. Nuestras propias marcas son: Assembler (peluquería), Haskell (Estética), Java (cosmética) y Python (Barber). Somos la empresa líder en Rosario en nuestro sector y exportamos a más de 10 provincias en todo el pais. Tenemos una extensa red de distribución tanto a nivel nacional como internacional. Como empresa, Vikings Barber Shop es pionera en Argentina en la investigación, diseño y fabricación de accesorios, herramientas, peluquería y estética. Conoce mas de nuestros <a id ="textito" href="productos.html">productos</a></p> -->
@@ -93,7 +93,7 @@
 
         function carousell() {
           var j;
-          var y = document.getElementsByClassName("miSlide_p");
+          var y = document.getElementsByClassName("miSlider_p");
           for (j = 0; j < y.length; j++) {
             y[j].style.display = "none";
           }
@@ -110,7 +110,7 @@
 
           function carousellp() {
             var k;
-            var z = document.getElementsByClassName("miSlide_p2");
+            var z = document.getElementsByClassName("miSlider_p2");
             for (k = 0; k < z.length; k++) {
               z[k].style.display = "none";
             }
@@ -128,7 +128,7 @@
 
             function carousell_p() {
               var l;
-              var w = document.getElementsByClassName("miSlide_p3");
+              var w = document.getElementsByClassName("miSlider_p3");
               for (l = 0; l < w.length; l++) {
                 w[l].style.display = "none";
               }
